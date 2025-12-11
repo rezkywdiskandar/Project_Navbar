@@ -1,3 +1,7 @@
+body, html{
+	width:100%;
+	margin:0;
+}
 .navbar {
 	position: fixed;
 	top: 0;
@@ -41,7 +45,7 @@
 	padding: 80px 20px;
 	color: d4d4dc;
 	/*background-color: #0A1828;*/
-    background: linear-gradient(135deg, #5A7598, #9EABBB, #132956);
+    	background: linear-gradient(135deg, #5A7598, #9EABBB, #132956);
 	text-align: center;
 	height: 100%;
 	align-items: center;
