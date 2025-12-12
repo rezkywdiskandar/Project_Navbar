@@ -1,0 +1,161 @@
+<html>
+<head>
+<title>data kunjungan</title>
+<style>
+
+	body, html{
+		background: linear-gradient(135deg, #5A7598, #9EABBB, #132956);
+	}
+
+	.content {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: center;
+		padding-top: 100px;
+		padding-bottom: 40px;
+	}
+	.card{
+		border: 1px solid #ddd;
+		width: 250px;
+		border-radius: 10px;
+		text-align: center;
+		box-shadow: 0 2px 5px rgba( 0,0,0,0.1);
+		overflow: hidden;
+		padding: 10px;
+		background-color: white;
+		margin: 10px 20px;
+		margin-left: 20px;
+		padding: 20px;
+			
+		
+		
+	}
+
+	.card-img{
+		width: 100%;
+		height: 200px;
+		object-fit: cover;
+	}
+
+	.card-title{
+		font-size: 20;
+		margin: 10px 0 5px;
+	}
+
+	.card-subtitle{
+		font-size: 15;
+		margin: 10px 0 5px;
+	}
+
+	.card-btn{
+		background-color: #007bff;
+		color: white;
+		border: none;
+		border-radius: 5px;
+		padding: 10px 15px;
+		cursor: pointer;
+	}
+
+	.card:hover{
+		background-color: black;
+		color: white;
+		transform: translateY(-5px)
+		box-shadow: 0 10px 30px rgb(0,0,0,0.22);
+		
+	}
+	
+	.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	background: #002349;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 25px;
+	box-sizing: border-box;
+	z-index: 1000;
+}
+
+.nav-link {
+	list-style: none;
+	display: flex;
+	gap: 25px;
+}
+
+.nav-link li a {
+	color: #d4d4dc;
+	text-decoration: none;
+	font-size: 16;
+	transition: 0.3s;
+	background-color: #0A1828;
+	padding: 10px 20px;
+	border-radius: 20px;
+}
+
+.nav-link li a:hover {
+	background-color: white;
+	padding: 10px 20px;
+	border-radius: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+.logo{
+	background-color: #0A1828;
+	color: #d4d4dc;
+	border-radius: 60%;
+	font-weight:bold;
+	font-size: 20;
+	border-shadow: 0 0 7px #fff;
+	padding: 10px;
+}
+
+</style>
+</head>
+<body>
+<nav class="navbar">
+
+	<div class="logo">
+		RWI
+	</div>
+
+	<ul class="nav-link">
+		<li><a href="/Users/rezkywidiiskandar/Documents/Latihan Navbar/Navbar.html">Beranda</a></li>
+		<li><a href="/Users/rezkywidiiskandar/Documents/Latihan Navbar/Profile.html">Profile</a></li>
+		<li><a href="#">Kontak</a></li>
+		<li><a href="/Users/rezkywidiiskandar/Documents/Latihan Navbar/	sertifikat.html">Sertifikat</a></li>
+		<li><a href="/Users/rezkywidiiskandar/Documents/Latihan Navbar/data_kunjungan.html">Buku Tamu</a></li>
+	</ul>
+</nav>
+<div class="content">
+<div class="card">
+	<img src="img/gambar.png" class="card-img">
+	<h3 class="card-title">Rezky Widi Iskandar</h3>
+	<p class="card-subtitle">Progammer | UI/UX | CEO</p>
+	<button class="card-btn">
+		Lihat Profile
+	</button>
+</div>
+<div class="card">
+	<img src="img/adrian.png" class="card-img">
+	<h3 class="card-title">Adrian Herliansyah Ramdhan</h3>
+	<p class="card-subtitle">Progammer | UI/UX | CEO</p>
+	<button class="card-btn">
+		Lihat Profile
+	</button>
+</div>
+<div class="card">
+	<img src="img/zhabir.png" class="card-img">
+	<h3 class="card-title">Zhabir Naufal Dewantara</h3>
+	<p class="card-subtitle">Progammer | UI/UX | CEO</p>
+	<button class="card-btn">
+		Lihat Profile
+	</button>
+</div>
+</div>
+</body>
+</html>

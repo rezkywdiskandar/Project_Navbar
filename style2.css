@@ -2,9 +2,10 @@ body {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		background: linear-gradient(135deg, #5A7598, #9EABBB, #132956);
 }
 .profile-container{
-	background-color: white;
+	background: linear-gradient(135deg, #5A7598, #9EABBB, #132956, #091B3D);
 	padding: 30px;
 	border-radius:12px;
 	box-shadow: 0 4px 15px rgba(0, 0, 0,1);
@@ -32,7 +33,7 @@ a:hover {
 
 .profil-info {
 	line-height: 30px;
-	color: #555;
+	color:  #0A1828;
 	margin-bottom: 10px;
 }
 
